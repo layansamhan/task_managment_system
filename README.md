@@ -1,25 +1,80 @@
-# Task Management System
-A simple and efficient Task Management System designed to organize and manage tasks effectively. This project demonstrates modular programming techniques, user input handling, and basic data manipulation using arrays.
+# ✅ Task Management System
 
-Features:
-- Main Menu System
-  - Provides an intuitive main menu for navigation between different features.
-  - Uses a switch-case structure to execute selected functions based on user input.
-  - Ensures seamless interaction between all modules for an enhanced user experience.
-- Add Task Module
-Allows users to input task details:
-  - Name: Brief description of the task.
-  - Deadline: Due date for task completion.
-  - Priority: Task importance level.
-  - Saves tasks in a structured data array.
-  - Includes error checking to handle issues like array overflow.
-- View Task Module
-  - Displays all tasks in a clean and formatted layout.
-  - Edit and Delete Tasks Module
-  - Enables users to update task details such as name, deadline, or priority.
-  - Supports task deletion with automatic adjustment of the array to maintain data integrity.
-- Key Highlights
-  - Designed with modularity in mind for ease of maintenance and scalability.
-  - Demonstrates effective use of arrays for task storage and management.
-  - User-friendly interface ensures smooth navigation and interaction.
+Hi! I’m **Layan Samhan**, and this is another personal C project I built to practice working with user input, arrays, and logic flow: a **console-based Task Management System**. It's simple, fast, and designed to help users manage their to-do tasks directly from the terminal.
+
+---
+
+## 🧠 What It Does
+
+This program lets users manage tasks from the command line. It supports:
+
+* Adding new tasks
+* Viewing all tasks
+* Marking tasks as completed
+* Deleting tasks
+* Editing existing tasks
+* Saving and loading tasks from a file (optional)
+
+It’s fully text-based and designed to be minimal but functional.
+
+---
+
+## 🧪 Features
+
+* 📋 Add a task with a name and optional description
+* 👀 View all tasks with their status (Pending / Done)
+* ✅ Mark tasks as completed
+* ❌ Delete tasks by number
+* 📝 Edit task name or description
+* 💾 Save/load tasks to/from a text file
+
+---
+
+## 💻 How to Run
+
+1. Compile the code:
+
+   ```bash
+   gcc -o task_manager main.c
+   ```
+
+2. Run it:
+
+   ```bash
+   ./task_manager
+   ```
+
+3. Follow the on-screen menu to interact with the system.
+
+---
+
+## 🧱 Core Concepts Used
+
+* Arrays and strings
+* User-defined functions
+* File I/O (optional)
+* Input validation
+* Loops and conditionals
+* Menu-driven interface
+
+---
+
+## 📌 Example Menu
+
+```
+--- Task Manager ---
+1. Add Task
+2. View Tasks
+3. Mark Task as Done
+4. Edit Task
+5. Delete Task
+6. Exit
+Enter your choice:
+```
+
+---
+
+## 🎯 Why I Built This
+
+I wanted to simulate a basic productivity app using pure C. It helped me practice how to structure menu-based programs, work with strings, and build user-friendly console interactions.
 
